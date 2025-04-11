@@ -8,6 +8,6 @@ public class demoController {
 
     @GetMapping("/")
     public String index() {
-        return "Hello FSSTECH!! I am running from PODs added to Kubernetes!!";
+        return "Hello FSSTECH!! I am running from web app added on Azure Cloud!!";
     }
 }
